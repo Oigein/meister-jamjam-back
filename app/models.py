@@ -1,0 +1,9 @@
+"""모든 모델을 한 번에 import해 Base.metadata에 등록한다 (create_all, Alembic용)."""
+from app.domains.contest import models as _contest  # noqa: F401
+from app.domains.game import models as _game  # noqa: F401
+from app.domains.merit import models as _merit  # noqa: F401
+from app.domains.mileage import models as _mileage  # noqa: F401
+from app.domains.notification import models as _notification  # noqa: F401
+from app.domains.report import models as _report  # noqa: F401
+from app.domains.theme import models as _theme  # noqa: F401
+from app.domains.user import models as _user  # noqa: F401

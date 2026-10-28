@@ -2,3 +2,14 @@ fastapi
 uvicorn[standard]
 pydantic-settings
 python-dotenv
+sqlalchemy[asyncio]>=2.0
+aiosqlite
+aiomysql
+alembic
+httpx
+joserfc
+cryptography
+python-multipart
+pytest
+pytest-asyncio
+pillow

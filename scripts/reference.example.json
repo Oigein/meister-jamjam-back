@@ -1,0 +1,29 @@
+{
+  "scoreItems": [
+    { "scoreType": "MAJOR_SKILL", "name": "국가기술자격증", "maxPoints": 30, "description": "기능사 10점, 산업기사 20점" },
+    { "scoreType": "FOREIGN_LANGUAGE", "name": "어학 시험", "maxPoints": 30 }
+  ],
+  "gradeCriteria": [
+    {
+      "scoreType": "MAJOR_SKILL",
+      "maxRawScore": 150,
+      "conversionRate": 0.2,
+      "grades": [
+        { "grade": "A", "minRawScore": 100 },
+        { "grade": "B", "minRawScore": 60 },
+        { "grade": "C", "minRawScore": 30 }
+      ]
+    }
+  ],
+  "pointRules": [
+    { "type": "MERIT", "category": "봉사", "title": "교내 봉사활동", "points": 3, "description": "담당 교사가 확인한 교내 봉사활동 1회", "note": "하루 1회만 인정" },
+    { "type": "DEMERIT", "category": "생활", "title": "지각", "points": 1, "description": "조회 시작 이후 등교" }
+  ],
+  "academicSchedules": [
+    { "type": "EXAM", "title": "2학기 기말고사", "startDate": "2026-12-08", "endDate": "2026-12-11" }
+  ],
+  "themePresets": [
+    { "type": "GIF", "name": "밤하늘 별", "fileUrl": "https://cdn.example.com/presets/stars.gif", "thumbnailUrl": "https://cdn.example.com/presets/stars.jpg", "sortOrder": 1 }
+  ],
+  "contestTags": ["백엔드", "프론트엔드", "AI"]
+}
